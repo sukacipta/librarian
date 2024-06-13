@@ -184,6 +184,7 @@ defmodule SSH.Config do
   @allowed_options [
     :host_name,
     :user,
+    :password,
     :port,
     :silently_accept_hosts,
     :quiet_mode,
